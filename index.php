@@ -6,18 +6,16 @@
     <title>Welcome to Samiyah Jackson.Com</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
     <section id="hero">
        
-        <header>
-            <nav class=" custom-navbar navbar navbar-expand-lg">
+        <header class="sticky">
+            <nav class="custom-navbar navbar navbar-expand-lg">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">Samiyah Jackson</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +24,7 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="http://www.eliteintriagohomes.com/Listings/homes-for-sale-union-nj/all-locations/min-price-any/max-price-any/beds-any/baths-any/1" target="_blank">Properties</a>
@@ -35,7 +33,7 @@
                         <a class="nav-link" href="https://www2.gsmls.com/publicsite/getcountysearch.do?method=getcountysearch&bundle=publicsite.English" target="_blank">MLS Search</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#Contact">Contact Us</a>
+                        <a class="nav-link" href="#contact">Contact Us</a>
                       </li>
                     </ul>
                   </div>
@@ -43,20 +41,20 @@
               </nav>
           </header>
 
-          <div class="hero-box hero-responsive">
+          <div class="hero-box content">
               <div class="left-box">
                   <img src="/Images/miyah.12.jpg" alt="Samiyah Jackson">
               </div>
               <div class="right-box">
                <div class="bio-box">
                    <h2>Hi I’m Samiyah</h2>
-                   <h3>Educator, Speaker and Luxury Real Estate Specialist</h3>
-                   <p>I teach realtors the effective practices and skills to grow their real estate businesses so they can sell more, earn a better living, and stop chasing the next sale. </p>
+                   <h3>Real Estate Specialist</h3>
+                   <p>Effective real estate specialist with my best practices and skills i can help grow your real estate businesses or help you find your next home. </p>
                </div>
                 <div class="text-box">
                   <div class="box-1">
-                    <p>I am Samiyah Jackson, a premier Realtor servicing northern New Jersey. I have a knack for tapping into the needs and desires of my house-hunting clients and merging them into their ideal home. I love seeing my clients light up when they discover the perfect property to build their life in.</p>
-                    <a href="" class="button">Book Now</a>
+                    <p >I am Samiyah Jackson, a premier Realtor servicing northern New Jersey. I have a knack for tapping into the needs and desires of my house-hunting clients and merging them into their ideal home. I love seeing my clients light up when they discover the perfect property to build their life in.</p>
+                    <a target="_blank" href="#contact" class="button">Book Now</a>
                   </div>
                 </div>
             </div>
@@ -73,7 +71,7 @@
             <h2>Featured Properties</h2>
             <h3>721 Westfield Ave
               Elizabeth, NJ 07208</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+            <p>Search from all our latest properties provided from the Garden State (GSMLS) mls property info network. The property listing data and information set forth herein were provided to mls property information network </p>
             <ul class="icons">
               <li><img src="/Images/home.png" alt=""></li>
 
@@ -81,7 +79,7 @@
 
               <li><img src="/Images/toilet.png" alt=""></li>
             </ul>
-             <a href="http://www.eliteintriagohomes.com/Listings/homes-for-sale-union-nj/all-locations/min-price-any/max-price-any/beds-any/baths-any/1" class="button">Search Properties</a>
+             <a href="http://www.eliteintriagohomes.com/Listings/homes-for-sale-union-nj/all-locations/min-price-any/max-price-any/beds-any/baths-any/1" target="_blank" class="button">Search Properties</a>
           </div>
         </div>
       </div>
@@ -90,13 +88,9 @@
     <section id="MLS-Search">
       <div class="MLS-box">
         <h2>MLS Search</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           Dicta consequatur veritatis consectetur hic ipsa explicabo 
-           voluptates repellendus praesentium dolor quod? 
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-           Libero vel soluta possimus rerum illum repellendus! 
-           Culpa eum doloremque qui corporis!</p>
-        <a href="" class="button">Book Now</a>
+        <p>Get real-time market updates
+          utilizes the latest technologies, market research and business strategies We’re bringing you the latest on how COVID-19 is impacting the real estate market.</p>
+        <a href="https://www2.gsmls.com/publicsite/getcountysearch.do?method=getcountysearch&bundle=publicsite.English" class="button">Search</a>
       </div>
     </section>
 
@@ -131,21 +125,26 @@
       <div class="title-box">
         <h2>Contact US</h2>
       </div>
-      <div class="contact-box">
+      <div class="contact-box" action="<?php echo $_SERVER["PHP_SELF"];?>" method="post">
+        <?php if($msg != ''): ?>
+        <div class="alert <?php echo $msgClass; ?>"><?php echo $msg;?></div>
+        <?php endif; ?>
         <div class="message-box">
           <div class="mb-3">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+            <textarea name="Message" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message">
+            <?php echo isset($_POST['message']) ? $message: ''; ?>
+            </textarea>
           </div>
         </div>
           <div class="input-box">
             <div class="col">
-              <input type="text" class="form-control" placeholder="Name" aria-label="First name">
+              <input type="text" class="form-control" name="Name" placeholder="Name" aria-label="First name">
             </div>
             <div class="col">
-              <input type="text" class="form-control" placeholder="Phone Number" aria-label="Last name">
+              <input type="text" class="form-control" name="Phone-Number" placeholder="Phone Number" aria-label="Last name">
             </div>
             <div class="col">
-              <input type="email" class="form-control" placeholder="Email" aria-label="First name">
+              <input type="email" class="form-control" name="Email" placeholder="Email" aria-label="First name">
             </div>
           </div>
       </div>
@@ -155,15 +154,15 @@
     <div class="container">
        <div class="footer-box">
          <ul class="links">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Properties</a></li>
-          <li><a href="#">MLS Search</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="http://www.eliteintriagohomes.com/Listings/homes-for-sale-union-nj/all-locations/min-price-any/max-price-any/beds-any/baths-any/1">Properties</a></li>
+          <li><a href="https://www2.gsmls.com/publicsite/getcountysearch.do?method=getcountysearch&bundle=publicsite.English">MLS Search</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
         <ul class="social-links">
-          <li class="social-link"><a href="#"><img src="/Images/facebook-app-symbol.svg" alt="facebook"></a></li>
-          <li class="social-link"><a href="#"><img src="/Images/instagram.svg" alt="facebook"></a></li>
-          <li class="social-link"><a href="#"><img src="/Images/twitter.svg" alt="facebook"></a></li>
+          <li class="social-link"><a href="#" target="_blank"><img src="/Images/facebook-app-symbol.svg" alt="facebook"></a></li>
+          <li class="social-link"><a href="#" target="_blank"><img src="/Images/instagram.svg" alt="facebook"></a></li>
+          <li class="social-link"><a href="#" target="_blank"><img src="/Images/twitter.svg" alt="facebook"></a></li>
         </ul>
        </div>
     </div>
@@ -175,9 +174,9 @@
    
 
        
-
-    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/js/main.js"></script>
 </body>
 </html>
