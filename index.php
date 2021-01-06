@@ -125,29 +125,29 @@
       <div class="title-box">
         <h2>Contact US</h2>
       </div>
-      <div class="contact-box" action="<?php echo $_SERVER["PHP_SELF"];?>" method="post">
-        <?php if($msg != ''): ?>
-        <div class="alert <?php echo $msgClass; ?>"><?php echo $msg;?></div>
-        <?php endif; ?>
+      <form class="contact-box" action="contact.php" method="post">
         <div class="message-box">
           <div class="mb-3">
-            <textarea name="Message" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message">
-            <?php echo isset($_POST['message']) ? $message: ''; ?>
+            <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message">
+
             </textarea>
           </div>
         </div>
           <div class="input-box">
             <div class="col">
-              <input type="text" class="form-control" name="Name" placeholder="Name" aria-label="First name">
+              <input type="text" name="name" class="form-control" placeholder="Name" aria-label="First name">
             </div>
             <div class="col">
-              <input type="text" class="form-control" name="Phone-Number" placeholder="Phone Number" aria-label="Last name">
+              <input type="text" name="phone-number" class="form-control" placeholder="Phone Number" aria-label="Last name">
             </div>
             <div class="col">
-              <input type="email" class="form-control" name="Email" placeholder="Email" aria-label="First name">
+              <input type="email" name="email" class="form-control" placeholder="Email" aria-label="First name">
+            </div>
+            <div class="btn-submit">
+               <button name="submit" class="button">SEND</button>
             </div>
           </div>
-      </div>
+      </form>
   </section>
 
   <footer>
