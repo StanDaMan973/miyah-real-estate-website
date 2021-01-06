@@ -129,7 +129,7 @@
         <div class="message-box">
           <div class="mb-3">
             <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message">
-
+            <?php echo isset($_POST['message']) ? $message: ''; ?>
             </textarea>
           </div>
         </div>
