@@ -27,7 +27,7 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="/index.php">Home</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="http://www.eliteintriagohomes.com/Listings/homes-for-sale-union-nj/all-locations/min-price-any/max-price-any/beds-any/baths-any/1" target="_blank">Properties</a>
@@ -49,11 +49,6 @@
                   <img src="/Images/miyah.12.jpg" alt="Samiyah Jackson">
               </div>
               <div class="right-box">
-               <div class="bio-box">
-                   <h2>Hi I’m Samiyah</h2>
-                   <h3>Real Estate Specialist</h3>
-                   <p>Effective real estate specialist with my best practices and skills i can help grow your real estate businesses or help you find your next home. </p>
-               </div>
                 <div class="text-box">
                   <div class="box-1">
                     <p >I am Samiyah Jackson, a premier Realtor servicing northern New Jersey. I have a knack for tapping into the needs and desires of my house-hunting clients and merging them into their ideal home. I love seeing my clients light up when they discover the perfect property to build their life in.</p>
@@ -140,6 +135,9 @@
           </div>
         </div>
           <div class="input-box">
+           <div class="col">
+               <input class="hidden" type="text" id="bot-smasher" name="bot-smasher">
+            </div>
             <div class="col">
               <input type="text" name="name" class="form-control" placeholder="Name" aria-label="name" value="<?php echo isset($_POST['name']) ? $name : ''; ?>">
             </div>
