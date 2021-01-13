@@ -1,9 +1,12 @@
+
+<?php require 'contact.php' ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Samiyah Jackson.Com</title>
+    <title>Welcome to Samiyah Jackson.com</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -125,23 +128,26 @@
       <div class="title-box">
         <h2>Contact US</h2>
       </div>
-      <form class="contact-box" action="contact.php" method="post">
+      <?php if($msg != ''): ?>
+            <div class="alert <?php echo $msgClass; ?>"><?php echo $msg;?></div>
+       <?php endif; ?>
+      <form class="contact-box" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
         <div class="message-box">
           <div class="mb-3">
-            <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message">
+            <textarea name="message" class="form-control" id="exampleFormControlTextarea1" placeholder="Message">
             <?php echo isset($_POST['message']) ? $message: ''; ?>
             </textarea>
           </div>
         </div>
           <div class="input-box">
             <div class="col">
-              <input type="text" name="name" class="form-control" placeholder="Name" aria-label="First name">
+              <input type="text" name="name" class="form-control" placeholder="Name" aria-label="name" value="<?php echo isset($_POST['name']) ? $name : ''; ?>">
             </div>
             <div class="col">
-              <input type="text" name="phone-number" class="form-control" placeholder="Phone Number" aria-label="Last name">
+              <input type="text" name="phone-number" class="form-control" placeholder="Phone Number" aria-label="phone number" value="<?php echo isset($_POST['phone-number']) ? $phoneNumber : ''; ?>">
             </div>
             <div class="col">
-              <input type="email" name="email" class="form-control" placeholder="Email" aria-label="First name">
+              <input type="email" name="email" class="form-control" placeholder="Email" aria-label="email" value="<?php echo isset($_POST['email']) ? $email : ''; ?>">
             </div>
             <div class="btn-submit">
                <button name="submit" class="button">SEND</button>
