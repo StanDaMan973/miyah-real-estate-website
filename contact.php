@@ -44,8 +44,6 @@ if(filter_has_var(INPUT_POST, 'submit')) {
         }
      }
 
-     
-
     } else {
         $msg = 'Please fill in all fields';
         $msgClass = 'alert-danger';
