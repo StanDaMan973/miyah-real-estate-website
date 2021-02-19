@@ -204,7 +204,7 @@ body {
 }
 
 .logo {
-    width: 120px;
+    width: 150px;
 }
 
 /***********************************************************************/
@@ -370,10 +370,9 @@ body {
     background: #fff;
 
     /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
+    display: -moz-inline-stack;
+    display: -webkit-inline-box;
+    display: inline-block;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
@@ -407,6 +406,16 @@ body {
   .swiper-pagination-bullet-active {
     color: #fff;
     background: #011140;
+  }
+
+ .span-title {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    line-height: 16px;
+    font-size: 20px !important;
+    color: #000; 
+    font-weight: 600;
   }
 
   /***********************************************************************/
@@ -558,6 +567,12 @@ footer {
 .social-links .social-link img {
     width: 25px;
     height: 25px;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 2px;
+    left: 0;
+    width: 100%;
 }
 
 /***********************************************************************/
@@ -833,7 +848,7 @@ footer {
     }
 
     .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
-        bottom: 10px;
+        bottom: 2px;
         left: 0;
         width: 100%;
     }

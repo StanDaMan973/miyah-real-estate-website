@@ -20,7 +20,7 @@
         <header class="sticky">
             <nav class="custom-navbar navbar navbar-expand-lg">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><img class="logo" src="/Images/logo-1.png" alt="logo"></a>
+                  <a class="navbar-brand" href="#"><img class="logo" src="/Images/samiyah-logo-white.png" alt="logo"></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -101,22 +101,21 @@
       <div class="swiper-container">
        <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <p>"Lorem Ipsum is simply dummy text of the printing and typesetting centuries. Lorem Ipsum is 
-              simply dummy text of the printing and typesetting centuries. Lorem Ipsum is simply dummy text of the printing and typesetting centuries. Lorem Ipsum is 
-              simply dummy text of the printing and typesetting centuries"</p>
+            <p>Working with Samiyah was a wonderful experience.
+             As first time home buyers, we had a lot of questions and didn’t really have a clear direction of where to look. She helped us narrow down what mattered, answered all of our 
+            questions, and really made sure we understood the whole process. It really made buying our home enjoyable.
+             </p>
+             <p class="span-title">The Patels</p>
           </div>
-          <div class="swiper-slide"><p>"Lorem Ipsum is simply dummy text of the printing and typesetting centuries. Lorem Ipsum is 
-            simply dummy text of the printing and typesetting centuries. Lorem Ipsum is simply dummy text of the printing and typesetting centuries. Lorem Ipsum is 
-            simply dummy text of the printing and typesetting centuries"</p></div>
-          <div class="swiper-slide"><p>"Lorem Ipsum is simply dummy text of the printing and typesetting centuries. Lorem Ipsum is 
-            simply dummy text of the printing and typesetting centuries. Lorem Ipsum is simply dummy text of the printing and typesetting centuries. Lorem Ipsum is 
-            simply dummy text of the printing and typesetting centuries"</p></div>
+          <div class="swiper-slide"><p>I was referred to Miyah by a friend who she helped about a year ago. I was looking for investment properties. I had a brief conversation with her and when she sent me listings, I could tell she actually listened. Most realtors just try to sell you anything but she didn’t make me feel like that. I bought my first 3 family with her and I can’t wait to get some more. </p><p class="span-title">Jon</p></div>
+
+          <div class="swiper-slide"><p>I tried to sell my home by myself for a while. When she reached out I told her I wasn’t interested in paying an agent but if she had some free advice I’d take it. We talked about a marketing plan and I decided to entertain her with a meeting. She explained the process of selling a home in so much detail and showed me what marketing the right way could do for a property. After a few open houses with her we were looking at multiple offers. Thank you for all your help Miyah.</p><p class="span-title">Ron & Maria </p></div>
      </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
-  </div>
- </div>
-</section>
+   </div>
+   </div>
+ </section>
 
   <section id="contact">
     <div class="container">
@@ -164,9 +163,9 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
         <ul class="social-links">
-          <li class="social-link"><a href="#" target="_blank"><img src="/Images/facebook-app-symbol.svg" alt="facebook"></a></li>
-          <li class="social-link"><a href="#" target="_blank"><img src="/Images/instagram.svg" alt="facebook"></a></li>
-          <li class="social-link"><a href="#" target="_blank"><img src="/Images/twitter.svg" alt="facebook"></a></li>
+          <li class="social-link"><a href="https://www.facebook.com/Miyah-Slays-Real-Estate-108764644061127/?view_public_for=108764644061127" target="_blank"><img src="/Images/facebook-app-symbol.svg" alt="facebook"></a></li>
+          <li class="social-link"><a href="https://www.instagram.com/miyahtherealtor/" target="_blank"><img src="/Images/instagram.svg" alt="facebook"></a></li>
+          <li class="social-link"><a href="https://twitter.com/miyahtherealtor" target="_blank"><img src="/Images/twitter.svg" alt="facebook"></a></li>
         </ul>
        </div>
     </div>
